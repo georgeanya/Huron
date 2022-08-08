@@ -1,0 +1,42 @@
+.huron__services {
+  display: flex;
+  flex-direction: column;
+}
+
+.huron__services-heading {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5rem;
+}
+
+.huron__services-heading h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+}
+
+.huron__services-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.huron__services-container_groupA {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.huron__services-container_groupB {
+  flex: 1;
+}
+
+@media screen and (max-width: 990px) {
+  .huron__services-container_groupA {
+    margin: 2rem 0;
+  }
+
+  .huron__services-container {
+    flex-direction: column;
+  }
+}
